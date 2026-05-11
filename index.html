@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>MovieAds - свежий концепт</title>
+  <link rel="stylesheet" href="assets/movieads-fresh-concept.css">
+</head>
+<body>
+  <header class="site-header">
+    <a class="brand" href="#" aria-label="MovieAds">
+      <img src="assets/movieads-logo.png" alt="MovieAds">
+    </a>
+    <nav class="top-nav" aria-label="Основная навигация">
+      <a href="#formats">Форматы</a>
+      <a href="#quality">Качество</a>
+      <a href="#steps">Подключение</a>
+      <a href="#contacts">Контакты</a>
+    </nav>
+    <a class="login-button" href="https://wmp.movieads.ru/">Вход</a>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-background" aria-hidden="true">
+        <div class="publisher-window">
+          <div class="window-top">
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+          <div class="article-line wide"></div>
+          <div class="article-line"></div>
+          <div class="ad-player">
+            <div class="play-badge">AD</div>
+            <div class="ad-progress"><span></span></div>
+          </div>
+          <div class="article-grid">
+            <span></span>
+            <span></span>
+            <span></span>
+            <span></span>
+          </div>
+        </div>
+        <div class="analytics-strip">
+          <div>
+            <strong>98%</strong>
+            <span>viewability</span>
+          </div>
+          <div>
+            <strong>24/7</strong>
+            <span>support</span>
+          </div>
+          <div>
+            <strong>2015</strong>
+            <span>на рынке</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="hero-content">
+        <p class="eyebrow">Видеомонетизация для веб-мастеров</p>
+        <h1>Видео-реклама, которая выкупает трафик вашего сайта</h1>
+        <p class="lead">
+          Подключаем Flyroll, Preroll, Autoplay и Preloader. Подбираем брендовые кампании,
+          помогаем с настройкой и показываем доход в прозрачной статистике.
+        </p>
+        <div class="hero-actions">
+          <a class="primary-action" href="#calculator">Рассчитать доход</a>
+          <a class="secondary-action" href="#formats">Посмотреть форматы</a>
+        </div>
+        <div class="hero-metrics" aria-label="Ключевые преимущества">
+          <div>
+            <strong>CPM</strong>
+            <span>оплата за показы</span>
+          </div>
+          <div>
+            <strong>VAST</strong>
+            <span>интеграция в плеер</span>
+          </div>
+          <div>
+            <strong>BRAND</strong>
+            <span>качественные кампании</span>
+          </div>
+        </div>
+      </div>
+
+      <form class="calculator" id="calculator">
+        <div class="calculator-head">
+          <span>Прогноз</span>
+          <strong>Доход сайта</strong>
+        </div>
+        <label>
+          <span>URL сайта</span>
+          <input type="url" value="https://example.ru" aria-label="URL сайта">
+        </label>
+        <label>
+          <span>Уникальные пользователи в месяц</span>
+          <input id="visitors" type="range" min="50000" max="3000000" step="50000" value="850000">
+          <output id="visitorsOutput" for="visitors">850 000</output>
+        </label>
+        <label>
+          <span>Мобильный трафик</span>
+          <input id="mobileShare" type="range" min="10" max="95" step="5" value="65">
+          <output id="mobileOutput" for="mobileShare">65%</output>
+        </label>
+        <div class="estimate">
+          <span>Ориентир в месяц</span>
+          <strong id="estimateValue">от 148 000 ₽</strong>
+        </div>
+        <button type="button">Получить расчет</button>
+        <p>Точный прогноз зависит от гео, тематики, источников трафика и доступных рекламных кампаний.</p>
+      </form>
+    </section>
+
+    <section class="formats-section" id="formats">
+      <div class="section-title">
+        <p class="eyebrow">Форматы</p>
+        <h2>Покажите рекламный формат там, где он действительно работает</h2>
+      </div>
+      <div class="format-grid">
+        <article class="format-card">
+          <div class="format-preview page-preview">
+            <span class="flyroll-unit">Flyroll</span>
+          </div>
+          <h3>Flyroll</h3>
+          <p>Фиксированный видеоблок в зоне видимости страницы. Подходит для статейных сайтов и новостного трафика.</p>
+        </article>
+        <article class="format-card">
+          <div class="format-preview player-preview">
+            <span class="pre-roll">Preroll</span>
+          </div>
+          <h3>Preroll</h3>
+          <p>VAST-размещение перед контентом в вашем плеере. Хорошо работает на видеосайтах и медиапроектах.</p>
+        </article>
+        <article class="format-card">
+          <div class="format-preview mobile-preview">
+            <span class="autoplay-unit">Autoplay</span>
+          </div>
+          <h3>Autoplay</h3>
+          <p>Автоматический запуск видеорекламы с контролем частоты, видимости и пользовательского опыта.</p>
+        </article>
+        <article class="format-card">
+          <div class="format-preview preload-preview">
+            <span class="preloader-unit">Preloader</span>
+          </div>
+          <h3>Preloader</h3>
+          <p>Короткий рекламный контакт до загрузки основного контента, когда нужен высокий охват.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="quality-section" id="quality">
+      <div class="quality-copy">
+        <p class="eyebrow">Контроль качества</p>
+        <h2>Брендовая реклама без сомнительных категорий</h2>
+        <p>
+          MovieAds делает ставку на качественные кампании, понятную статистику и персональную оптимизацию
+          под площадку. На РФ не продвигаем казино, ставки на спорт, биржи и агрессивные офферы.
+        </p>
+      </div>
+      <div class="quality-list">
+        <div>
+          <strong>01</strong>
+          <span>Показы считаются с первой секунды воспроизведения</span>
+        </div>
+        <div>
+          <strong>02</strong>
+          <span>Поддержка помогает выбрать формат и установить код</span>
+        </div>
+        <div>
+          <strong>03</strong>
+          <span>Личный кабинет показывает прозрачную статистику</span>
+        </div>
+      </div>
+    </section>
+
+    <section class="steps-section" id="steps">
+      <div class="section-title">
+        <p class="eyebrow">Подключение</p>
+        <h2>От заявки до дохода без длинной интеграции</h2>
+      </div>
+      <div class="steps">
+        <div class="step">
+          <span>1</span>
+          <h3>Оставьте сайт</h3>
+          <p>Передайте URL, посещаемость и базовые данные по трафику.</p>
+        </div>
+        <div class="step">
+          <span>2</span>
+          <h3>Получите подбор</h3>
+          <p>Команда предложит форматы, частоту показов и прогноз дохода.</p>
+        </div>
+        <div class="step">
+          <span>3</span>
+          <h3>Установите код</h3>
+          <p>Интеграция запускается через код MovieAds или VAST в вашем плеере.</p>
+        </div>
+        <div class="step">
+          <span>4</span>
+          <h3>Следите за доходом</h3>
+          <p>Статистика и выплаты доступны в личном кабинете веб-мастера.</p>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta-section" id="contacts">
+      <h2>Проверим, сколько может зарабатывать ваш трафик?</h2>
+      <a class="primary-action" href="#calculator">Рассчитать доход</a>
+      <div class="contact-links">
+        <a href="mailto:support@movieads.ru">support@movieads.ru</a>
+        <a href="https://t.me/sky_movieads">Telegram</a>
+        <a href="https://vk.com/movieads">VK</a>
+      </div>
+    </section>
+  </main>
+
+  <script>
+    const visitors = document.querySelector("#visitors");
+    const mobileShare = document.querySelector("#mobileShare");
+    const visitorsOutput = document.querySelector("#visitorsOutput");
+    const mobileOutput = document.querySelector("#mobileOutput");
+    const estimateValue = document.querySelector("#estimateValue");
+
+    function formatNumber(value) {
+      return new Intl.NumberFormat("ru-RU").format(value);
+    }
+
+    function updateEstimate() {
+      const users = Number(visitors.value);
+      const mobile = Number(mobileShare.value);
+      const multiplier = 0.12 + mobile / 1000;
+      const estimate = Math.round((users * multiplier) / 1000) * 1000;
+
+      visitorsOutput.value = formatNumber(users);
+      mobileOutput.value = `${mobile}%`;
+      estimateValue.textContent = `от ${formatNumber(estimate)} ₽`;
+    }
+
+    visitors.addEventListener("input", updateEstimate);
+    mobileShare.addEventListener("input", updateEstimate);
+    updateEstimate();
+  </script>
+</body>
+</html>
