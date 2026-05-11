@@ -6,7 +6,7 @@
 
 - `index.html` - страница концепта.
 - `assets/movieads-fresh-concept.css` - стили и адаптив.
-- `assets/movieads-logo.png` - текущий логотип MovieAds.
+- `assets/movieads-logo.png` - компактный логотип для прототипа.
 
 ## Идея
 
